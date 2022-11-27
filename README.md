@@ -22,4 +22,11 @@ wsl & python
 generar ungit ignore
 [git ignore](https://www.toptal.com/developers/gitignore)
 
-#Steps
+#Game Project
+
+to run the game u should follow the instructions
+
+```sh
+cd game
+python3 main.py
+```
