@@ -1,5 +1,11 @@
 curso-python
 
+Permissions
+
+```sh
+sudo chown -R khristopher ~/plt-test-code
+```
+
 Instalación
 ```sh
 sudo apt update
