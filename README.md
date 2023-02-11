@@ -102,3 +102,33 @@ install all dependencies of requeriments file
 ```sh
 pip install -r requeriments.txt
 ```
+# python with docker
+
+build the image
+
+```sh
+docker-compose build
+```
+
+si cuando ejecutas docker-compose build te causa un error parecido a este
+
+```docker
+```
+
+puedes solucionarlo con esto
+
+```sh
+export LD_LIBRARY_PATH=/usr/local/lib
+```
+
+run the build to the container
+
+```sh
+docker-compose up -d
+```
+
+visualiza los contenedores que esten corriendo
+
+```sh
+docker-compose ps
+```
